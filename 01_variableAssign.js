@@ -1,3 +1,5 @@
+
+
 var myFullName;
 console.log("before initialization :" + typeof myFullName);
 myFullName = "Ashutosh Wakde"
