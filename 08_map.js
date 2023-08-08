@@ -17,8 +17,12 @@ console.log(map.size);
 
 let stateValue = map.get("state");
 console.log(stateValue);
+
+
 console.log(`-------- SKILLS ------`);
 let skills = map.get("skills");
+
+
 for (const skill of skills) {
     console.log(skill);
 }
