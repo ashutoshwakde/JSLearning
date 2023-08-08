@@ -57,6 +57,20 @@ class vehicle {
   let shivajisenior = new college("Shivali College", 2001, "Chikhli", "Umesh Patil");
   console.log(shivajisenior);
 
+  console.log(`-------------------------------------------------------------------------------`);
+traverseObject = function(arg){
+  for (const key in arg) {
+      if (college.hasOwnProperty.call(arg, key)) {
+          const element = arg[key];
+          console.log(`Key: ${key}, value : ${element}`);
+      }
+  }
+}
+traverseObject(SSGMCE)
+traverseObject(mauli)
+traverseObject(shivaji)
+traverseObject(shivajisenior)
+
 
 
 
