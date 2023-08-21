@@ -1,12 +1,6 @@
 
 
-
-
-
-
-
-
-
+                                                                                                                  
 
 let personGK = {
     empId: 2233,
@@ -37,6 +31,10 @@ console.log(personGK);
 personGK.adharNumber = 123456781234;
 
 personGK.show();
+
+
+
+
 
 let array = [];
 
@@ -70,7 +68,7 @@ bank.address.getAddress();
 bank.empNames.push("Anil");
 console.log(bank);
 
-
+console.log(`==============================================================`);
 
 let student = {
     rollNumber: 2233,
@@ -93,4 +91,4 @@ for (const key in student) {
 }
 
 
-let isAvailable= "college" in student;
+

@@ -40,6 +40,10 @@ arrayNew = [...new Set(arrayNew)];
 console.log(arrayNew);
 // console.log(newSet);
 
+console.log(`+++++++++++++++++++++++++++++++++++++++++++++++++++++`);
 
+let array11 = [2,3,5,7]
+let array21 = [6,5]
 
-
+let add = array11.concat(array21)
+console.log(add);

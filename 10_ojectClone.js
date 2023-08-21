@@ -37,12 +37,15 @@ let studentElon = {
 let studentStew = Object.assign({} , studentElon); // Deep Clone
 studentStew.fullName = "Stew Job";
 
-console.log(` Elon Details: ${studentElon.fullName} `);
+console.log(` Elon Details: ${studentElon.fullName}`);
 console.log(` Stew Details: ${studentStew.fullName}`);
 
 console.log(`---------------------------------------------------------------`);
 
 let studentBill = {...studentElon};
 studentBill.fullName = "Billgates";
-console.log(` Elon Details: ${studentElon.fullName} `);
+console.log(` Elon Details: ${studentElon.fullName}`);
 console.log(` Bill Details: ${studentBill.fullName}`);
+
+
+

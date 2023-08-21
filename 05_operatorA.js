@@ -1,9 +1,9 @@
 
 console.log(`-------------------------Step 1-------------------------`);
 
-function squareOfwordLength(one){
-var len = one.length
-console.log(`The length of word is: ${len}`);
+function squareOfwordLength(word){
+var len = word.length
+console.log(`The length of ${word} is: ${len}`);
 var multi = len * len;
 return multi
 }

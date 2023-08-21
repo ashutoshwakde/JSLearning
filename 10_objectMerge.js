@@ -10,7 +10,7 @@ let jenny = {
     city: "Pune",
     college: "COEP Pune", 
 }
-marks = {
+let marks = {
     physics: 100,
     science: 99,
     math: 92

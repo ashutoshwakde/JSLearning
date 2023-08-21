@@ -18,7 +18,7 @@ console.log('--------------------------Step 2--------------------------');
 
 function display(str){
     var len = str.length
-    // console.log(len);
+    
 
     if (len > 10) {
         console.log('"JavaScript - ES6" string contain more than 10 character');
@@ -39,8 +39,4 @@ function show(value){
   }
 }
 show("JavaScript Language")
-
-
-
-
 
