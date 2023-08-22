@@ -19,9 +19,10 @@ console.log(`-------------------Step 3---------------------`);
 
 let add = (num1,num2,num3,num4,num5)=>{
     sum = num1+num2+num3+num4+num5
-    console.log(`Sum of elements - ${sum}`);
+    console.log(`Addition is : ${sum}`);
 }
 add(100,100,200,349,756)
+add("I am","learning","ES6",'features',"in depth")
 
 
 
