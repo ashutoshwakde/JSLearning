@@ -10,7 +10,7 @@ let addressStr = `{
 }`;
 console.log(`type of addressStr  ==> ${typeof addressStr}`);
 
-const address = JSON.parse(addressStr); // Convert from JSON format to object
+const address = JSON.parse(addressStr); // Convert JSON format to object
 console.log(` address type of ==>  ${typeof address}`);
 console.log(address);
 console.log(address.location);

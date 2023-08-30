@@ -43,3 +43,13 @@ var voteEligibe = function (age) {
 }
 voteEligibe(32)
 voteEligibe(65)
+
+
+
+
+
+
+
+
+
+

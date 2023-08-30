@@ -2,39 +2,15 @@ console.log(`-------------------------Step 1-------------------------`);
 
 var square = function (num) {
   var result = num * num;
-  console.log(` Square of Number 5 is : ${result}`);
+  console.log(` Square of Number ${num} is : ${result}`);
 };
 square(5);
-
-var square = function (num) {
-  var result = num * num;
-  console.log(` Square of Number 6 is : ${result}`);
-};
 square(6);
-
-var square = function (num) {
-  var result = num * num;
-  console.log(` Square of Number 25 is : ${result}`);
-};
 square(25);
-
-var square = function (num) {
-  var result = num * num;
-  console.log(` Square of Number 100 is : ${result}`);
-};
 square(100);
-
-var square = function (num) {
-  var result = num * num;
-  console.log(` Square of Number 67.89 is : ${result}`);
-};
 square(67.89);
-
-var square = function (num) {
-  var result = num * num;
-  console.log(` Square of Number 59 is : ${result}`);
-};
 square(59);
+
 
 console.log(`-------------------------Step 2-------------------------`);
 

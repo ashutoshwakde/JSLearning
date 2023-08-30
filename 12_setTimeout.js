@@ -1,13 +1,13 @@
 
 
-console.log(`callback function `);
+// console.log(`callback function `);
 
-let notification = function (){
-    console.log(`======== inside FE ==========`);
-    console.log(`Inside notification`);
-}
+// let notification = function (){
+//     console.log(`======== inside FE ==========`);
+//     console.log(`Inside notification`);
+// }
 
-setTimeout(notification, 8000);
+// setTimeout(notification, 8000);
 
 
 setTimeout(function(){
@@ -17,3 +17,4 @@ setTimeout(function(){
         } 
     }
 } , 5000);
+

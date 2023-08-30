@@ -27,3 +27,4 @@ Object.freeze(employee);
 employee.empNo = 2345;
 employee.company = "TCS";
 console.log(employee);
+
